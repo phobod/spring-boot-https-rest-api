@@ -1,0 +1,102 @@
+.object-table th {
+	margin: 0;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #525254;
+	text-decoration: none;
+}
+
+.object-table tr th:nth-child(1) {
+	width: 10%;
+}
+
+.object-table tr th:nth-child(2) {
+	width: 70%;
+}
+
+.object-table td {
+	margin: 0;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.object-table button {
+	vertical-align: middle;
+	font-size: 14px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.btn-new {
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.header-top-right {
+	float: right;
+}
+
+.signin {
+	float: left;
+	margin: 1.1em 0 0 1em;
+}
+
+.signin a {
+	padding: 8px 20px;
+	background: #21DEEF;
+	color: #FFF;
+	font-size: 14px;
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+
+.signin a:hover {
+	text-decoration: none;
+	color: #272C2E;
+	background: #F7F7F7;
+}
+
+.signin a:focus {
+	outline: none;
+}
+
+a.navbar-brand {
+	padding: 0 0 0 1em;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+	padding: 1.5em 0;
+	background: #FFF;
+	margin: 0;
+	box-shadow: 0px 0 2px #C1C1C1 !important;
+}
+
+a.navbar-brand h1 {
+	margin: 0;
+}
+
+.main {
+	padding: 5em 0 0 0;
+}
+
+.show-top-grids {
+	padding: 1em 0 1em 0;
+}

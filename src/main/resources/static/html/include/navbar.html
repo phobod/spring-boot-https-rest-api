@@ -1,0 +1,18 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" ng-href="#/main"><h1>Test Application</h1></a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<div class="header-top-right" ng-controller="loginController">
+				<div class="signin">
+					<a ng-href="#/login" class="play-icon popup-with-zoom-anim" ng-hide="principal.auth">Sign In</a> 
+					<a href="" class="play-icon popup-with-zoom-anim" ng-show="principal.auth" ng-click="logout()">Logout ({{principal.name}})</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</nav>
+<div class="clearfix"></div>
